@@ -401,14 +401,16 @@ img {
   position: relative;
   width: 100%;
   min-height: 560px;
-  background-image: linear-gradient(
+  background-image: 
+  /* linear-gradient(
     to right,
     rgba(10, 20, 30, 0.88) 0%,
     rgba(10, 20, 30, 0.78) 45%,
     rgba(10, 20, 30, 0.3) 75%,
     rgba(10, 20, 30, 0) 100%
-  ), url('../images/hero-bg.png');
-  background-position: right center;
+  ),  */
+  url('../images/hero-bg.png');
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
